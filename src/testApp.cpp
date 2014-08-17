@@ -188,7 +188,7 @@ void testApp::drawPointCloud() {
 		}
 	}
     
-	glPointSize(3);
+	glPointSize(5);
 	ofPushMatrix();
     ofScale(zoom,zoom,1);
 	ofScale(1, -1, -1); // the projected points are 'upside down' and 'backwards'
